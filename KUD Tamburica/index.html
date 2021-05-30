@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/main.css">
+    
     <link rel="stylesheet" href="styles/main-mobile.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
@@ -39,8 +40,8 @@
 
     <main class="main container">
         <section class="slideshow" id="slideshow">
-            <button id="lijevo">LIJEVO</button>
-            <button style="float:right;" id="desno">DESNO</button>
+            <!-- <button id="lijevo">LIJEVO</button>
+            <button style="float:right;" id="desno">DESNO</button> -->
             <div id="images">
                 <img src="images/gogi_krsman.JPG" class="gogi">
             </div>
@@ -53,14 +54,14 @@
             <article class="about">
                 <p>
                     Da bi očuvali tradiciju njegovanja kulturne baštine tamburaške glazbe, običaja, lijepe
-                    narodne nošnje, pjevanja i sviranja naših djedova i baka, 1971. godine rodila se ideja o osnivanju
+                    narodne nošnje, pjevanja i sviranja naših djedova i baka, <b>1971. godine</b> rodila se ideja o osnivanju
                     Društva.
                     S ovom osnovnom zadaćom povezano je i nastojanje očuvanja nacionalne pripadnosti
                     hrvatskome narodu i njegova jezika i kulture.
                     Nije slučajno ideja pokrenuta u vrijeme buđenja i borbe protiv raznih oblika zatiranja svega
                     što je hrvatsko. Podsjećam na povijesne okolnosti života pod austrougarskom vlašću, potom
-                    Kraljevinom Jugoslavijom, sna o nekakvom zajedničkom jeziku sviju naroda u toj Kraljevini
-                    (Slovenaca, Hrvata, Srba, Crnogoraca i drugih). Svjedoci smo i Novosadskog dogovora 60-ih
+                    Kraljevinom Jugoslavijom, sna o nekakvom  zajedničkom jeziku sviju naroda u toj Kraljevini
+                    (Slovenaca, Hrvata, Srba, Crnogoraca i drugih). Svjedoci smo i <b>Novosadskog dogovora</b>  60-ih
                     godina 20.-og stoljeća o srpsko-hrvatskom i hrvatsko-srpskom jeziku koji je ostao “mrtav”
                     jer se nitko nije pridržavao Dogovora. Hrvati su govorili hrvatskim, a Srbi srpskim jezikom.
                 
@@ -69,12 +70,12 @@
                 <p>
                     Nastavili smo tako borbu naših iliraca, naših studenata, sudionika studentskog proljeća,
                     sve do današnjih dana. Sve navedeno bila je vodilja i poticaj prvim pokretačima za osnivanje
-                    Društva, gospodinu Zvonimiru Šagovcu i Ivanu Lekiću.
-                    Na osnivačkoj Skupštini u studenome 1971. godine u Društvo se uključuju: Zvonko
-                    Dragić, Josip Turkalj, Nikola Rajšić i Antun Ivanetić te ih, uz Šagovca i Lekića, smatramo osnivačima
+                    Društva, gospodinu <b>Zvonimiru Šagovcu</b>  i <b>Ivanu Lekiću</b> .
+                    Na osnivačkoj Skupštini u studenome 1971. godine u Društvo se uključuju: <b>Zvonko
+                    Dragić, Josip Turkalj, Nikola Rajšić i Antun Ivanetić</b>  te ih, uz Šagovca i Lekića, smatramo osnivačima
                     Društva. Tamburaški sastav osnovan je iz redova starih svirača, a bilo ih je sveukupno
-                    osam: Zvonimir Šagovac, Ivan Lekić, Josip Turkalj, Josip Kotorac, Blaž Radošić, Antun Ivanetić,
-                    Nikola Rajšić i Zvonko Dragić. </p>
+                    osam: <b>Zvonimir Šagovac, Ivan Lekić, Josip Turkalj, Josip Kotorac, Blaž Radošić, Antun Ivanetić,
+                        Nikola Rajšić </b> i <b>Zvonko Dragić.</b>  </p>
             </article>
             
         </section>
@@ -85,7 +86,7 @@
             <article class="prizes">
                 <div>
                     <h2 class="title">Zlatna Plaketa Paje Kolarića</h2>
-                    <p>2011. osvojena u Feričancima s ukupno 90 bodova.
+                    <p> <b>2011.</b>  osvojena u Feričancima s ukupno 90 bodova.
                         Svirali su blablablalbalba lba lalb i blablal.
                     </p>
                 </div>
@@ -122,14 +123,14 @@
             <article class="world">
                 <img src="images/world.png" alt="" class="countries">
                 <ul class="countrylist">
-                    <li>SAD</li>
-                    <li>Kanada</li>
-                    <li>Venezuela</li>
-                    <li>Njemačka</li>
-                    <li>Švicarska</li>
-                    <li>Norveška</li>
-                    <li>Austrija</li>
-                    <li>Makedonija</li>
+                    <li class="container"><p>SAD</p></li>
+                    <li class="container"><p>Kanada</p></li>
+                    <li class="container"><p>Venezuela</p></li>
+                    <li class="container"><p>Njemačka</p></li>
+                    <li class="container"><p>Švicarska</p></li>
+                    <li class="container"><p>Norveška</p></li>
+                    <li class="container"><p>Austrija</p></li>
+                    <li class="container"><p>Makedonija</p></li>
                 </ul>
             </article>
             
@@ -173,7 +174,7 @@
 
         <section class="main-content">
             <h1 class="main-title">Trenutni orkestar</h1>
-            <div w3-include-html="orchestra.html"></div>
+         
         </section>
 
         <section class="main-content">
@@ -204,6 +205,6 @@
     <script src="scripts/main.js"></script>
     <script src="scripts/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDV4ZZnCqQ6zattcp53DWHjObAELMU-GSU&callback=initMap"></script>
-   
+    
 </body>
 </html>
