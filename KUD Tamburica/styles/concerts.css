@@ -45,4 +45,10 @@
         grid-gap: 10px;
     }
     
+    .grid-container .container {
+        height: 125px;
+    }
+    
+    
+    
 }
