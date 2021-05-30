@@ -45,6 +45,10 @@
         grid-gap: 10px;
     }
     
+    .grid-container {
+        grid-template-columns: auto;
+    }
+    
     .grid-container .container {
         height: 125px;
     }
