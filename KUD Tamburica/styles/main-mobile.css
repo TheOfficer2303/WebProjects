@@ -8,16 +8,15 @@
     } 
 
     .navigation {
-        justify-content: space-evenly;
-        height: 75px;
+        height: 85px;
     }
     
     .menu {
         flex-direction: column;
         position: absolute;
         left: 0;
-        height: 92vh;
-        top: 95px;
+        height: 94vh;
+        top: 87px;
         width: 80%;
         justify-content: space-around;
         align-items: center;
@@ -32,12 +31,12 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
     .menu-item {
         font-size: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
-       
         width: 100%;
         height: 100%;
         
@@ -46,6 +45,7 @@
     .menu-item.link {
         border: none;
         border-bottom: 2px solid black;
+        height: 100%;
     }
     .menu img{
         display: none;
@@ -64,11 +64,13 @@
     }
 
     .about {
-        grid-template-columns: auto;
+        display: grid;
+        grid-template-columns: auto; 
         grid-column-gap: 40px;
     }
 
     .prizes {
+        display: grid;
         grid-template-columns: auto auto;
     }
 
@@ -82,11 +84,25 @@
     }
 
     .countrylist {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+
+    .countrylist li {
+        width: 100px;
     }
 
     .sponsors {
         grid-template-columns: auto auto;
+    }
+
+    .news {
+        grid-template-columns: auto;
+        grid-row-gap: 1em;
+    }
+
+    .footer {
+        padding-left: 10px;
     }
 
 }
