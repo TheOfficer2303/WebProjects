@@ -14,5 +14,5 @@ app.use(express.urlencoded({ extended: true}));
 
 app.use('/', homeRouter)
 app.use('/addnews', newsRouter);
-
+//Aaaaaaaaaaaa
 app.listen(80);
