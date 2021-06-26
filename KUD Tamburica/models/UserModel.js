@@ -1,6 +1,6 @@
 const db = require('../db')
 
-//razred User enkapsulira korisnika web trgovine
+//razred User enkapsulira korisnika
 module.exports = class User {
     
     //konstruktor korisnika
@@ -105,18 +105,7 @@ dbGetUserByEmail = async (user_email) => {
     }
 };
 
-//dohvat korisnika iz baze podataka na osnovu id korisnika (stupac id)
-dbGetUserById = async (user_id) => {
-    const sql = `SELECT id, user_name, first_name, last_name, email, password, role
-    FROM authors WHERE id = ` + user_id;
-    try {
-        const result = await db.query(sql, []);
-        return result.rows;
-    } catch (err) {
-        console.log(err);
-        throw err
-    }
-}
+
 
 //umetanje zapisa o korisniku u bazu podataka
 dbNewUser = async (user) => {
