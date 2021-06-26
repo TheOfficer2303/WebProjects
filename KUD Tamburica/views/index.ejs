@@ -9,7 +9,7 @@
     
     <link rel="stylesheet" href="styles/main-mobile.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <title>KUD Tamburica</title>
 </head>
 <body class="content">
@@ -24,6 +24,11 @@
                 <a class="link menu-item" href="concerts.html">Razdoblja i brojke</a>
                 <a class="link menu-item" href="">Diskografija</a>
                 <a class="link menu-item" href=""> Pola stoljeća</a>
+                <% if (user !== undefined) { %>
+                <a class="link menu-item" href="/logout">Odjava</a>
+                <% } else { %>
+                <a class="link menu-item" href="/login">Prijava</a>
+                <% } %>
             </div>
             <div class="KUD">
                 <h1>KUD TAMBURICA STARO PETROVO SELO</h1>
@@ -147,27 +152,13 @@
                 </article>    
 
                 <% }%>
-            </div>    
+            </div>
+            
+            <% if (user !== undefined && user.role == 'admin') {%>
+
             <button onclick="location.href = 'addNews';" class="addNews" id="addNews">Dodaj novost</button>
-            <!-- <div class="news">
-               <a href="" class="link"> 
-                   <article class="news-item">
-                    <img src="images/mfutg.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nihil voluptates cumque rerum neque nesciunt, molestiae soluta! Tenetur, facere error?</p>
-                </article> </a>
-
-                <a href="" class="link">
-                <article class="news-item">
-                    <img src="images/mfutg.png" alt="">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis praesentium ipsam impedit nemo enim alias ipsum vel amet dolorem qui.</p>
-                </article> </a>
-
-                <a href="#" class="link">
-                <article class="news-item">
-                    <img src="images/mfutg.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti beatae dolores reprehenderit accusantium mollitia quisquam non iusto sit. Eligendi, repellendus.</p>
-                </article></a>
-            </div> -->
+            <% } %>
+           
         </section>
 
         <section class="main-content">

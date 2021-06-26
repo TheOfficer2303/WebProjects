@@ -6,7 +6,8 @@ router.get('/', async function(req,res) {
     let data = await db.query(`SELECT * FROM novosti`);
    
     res.render('index', {
-        novosti: data.rows
+        novosti: data.rows,
+        user: req.session.user
     })
 })
 
