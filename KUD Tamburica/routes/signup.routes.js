@@ -41,6 +41,5 @@ router.post('/', async function(req, res) {
     req.session.user = newUser;
     res.redirect("/")
 })
-//2222222222222
 
 module.exports = router;
