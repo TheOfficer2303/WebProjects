@@ -2,4 +2,4 @@ Work in progress... This is only a preview. It has poor support for mobile devic
 
 Temporary link: https://kudtamburica.000webhostapp.com
 
-NOTE: Hosted link sometimes doesn't work or doesn't update uploaded files. For latest version of the website, please download repository and try it on your own.
+NOTE: Hosted link sometimes doesn't work or doesn't update uploaded files. For latest version of the website, please clone repository and try it on your own.
