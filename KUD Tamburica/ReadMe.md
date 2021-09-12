@@ -1,5 +1,1 @@
-Work in progress... This is only a preview. It has poor support for mobile devices.
-
-Temporary link: https://kudtamburica.000webhostapp.com
-
-NOTE: Hosted link sometimes doesn't work or doesn't update uploaded files. For latest version of the website, please clone repository and try it on your own.
+Work in progress... This is only a preview. It was a test for my node.js skills. For the real webiste, please visit the _Renewed_ folder.
