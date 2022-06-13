@@ -1,0 +1,12 @@
+@media screen and (max-width:768px) {
+    .albums {
+        flex-direction: column;
+        row-gap: 20px;
+        text-align: center;
+    }
+
+    .album-link.part-of-three {
+        width:initial;
+    }
+}
+

@@ -63,6 +63,7 @@
     border-right: 2px solid black;
     margin: -2px 0px 0px -2px;
     height: 4em;
+    transition: 0.35s ease-in-out;
 }
 
 .img-fixed {
@@ -84,19 +85,6 @@
 .link-active {
     color: white;
     background-color: rgb(59, 55, 55);
-}
-
-li {
-    list-style-type: none;
-    
-}
-
-.news-item:hover {
-    transform: scale(1.05);
-    transition: 0.5s ease-in-out;
-    color:black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: none;
 }
 
 .burger {
